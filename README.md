@@ -1,3 +1,4 @@
-The OpenShift `python` cartridge documentation can be found at:
+hackshackers
+============
 
-https://github.com/openshift/origin-server/tree/master/cartridges/openshift-origin-cartridge-python/README.md
+Code for the HacksHackersROC website
