@@ -8,6 +8,11 @@ import os
 from flask import Flask
 from flask.ext.mako import MakoTemplates, render_template
 
+# This is how you Markdown in Flask according to the docs here:
+# http://flask.pocoo.org/snippets/19/
+#from flask.ext.markdown import Markdown
+#Markdown(app)
+
 app = Flask(__name__)
 app.template_folder = "templates"
 mako = MakoTemplates(app)
